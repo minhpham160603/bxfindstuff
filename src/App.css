@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.block {
+  max-width: 1600px;
+}
+
+.title {
+  left: 0;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-column: inherit;
+}
+
+:root {
+  --green: #59a96a;
+  --bordercol: #dee4ed;
+  --hovercolor: #dee4ed;
+}
+
+#navbar {
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}

@@ -1,0 +1,17 @@
+Link {
+  text-decoration: none;
+}
+
+.card-container {
+  width: 200px;
+  height: 250px;
+  margin: 15px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #dee4ed;
+}
+
+.cardlink :hover {
+  background-color: #dee4ed;
+  transition: all 0.5s ease-out;
+}
